@@ -1,0 +1,269 @@
+{ 
+  "FUFU-STRIKE_FUFU.title": "基础水击",
+  "FUFU-STRIKE_FUFU.description": "造成 [blue]{Damage}[/blue] 点伤害。命中后获得 [blue]1[/blue] 点元素能量；打出后角色保持 / 切换为荒属性",
+
+  "FUFU-DEFEND_FUFU.title": "基础防御",
+  "FUFU-DEFEND_FUFU.description": "获得 [blue]{Block}[/blue] 点格挡；芒性状态下格挡 + 2；打出后角色保持 / 切换为芒属性",
+
+  "FUFU-BASIC_CHARGE_FUFU.title": "基础聚能",
+  "FUFU-BASIC_CHARGE_FUFU.description": "获得 [blue]5[/blue] 点元素能量。",
+
+  "FUFU-BECKON_SHADOW.title": "基础唤影",
+  "FUFU-BECKON_SHADOW.description": "荒性召唤基础沙龙成员，芒性召唤基础歌者，持续[blue]2[/blue]回合，每次召唤增加[blue]2[/blue]回合；",
+
+  "FUFU-BASIC_DRAW_CARDS.title": "基础抽牌",
+  "FUFU-BASIC_DRAW_CARDS.description": "消耗5元素能量和2气氛值。获得 [blue]{Energy:energyIcons()}[/blue] 点能量，抽 [blue]{Cards:diff()}[/blue] 张牌。",
+
+
+
+  "FUFU-WATER_STRIKE.title": "水刃轻击",
+  "FUFU-WATER_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，命中时获得[blue]1[/blue] 点元素能量。\n荒属性时：本回合沙龙伤害+1。",
+
+  "FUFU-OPERA_STAB.title": "歌剧直刺",
+  "FUFU-OPERA_STAB.description": "造成 [blue]{Damage}[/blue] 点伤害。\n荒属性时，本次伤害额外+4。",
+
+  "FUFU-COURT_HEAVY_STRIKE.title": "庭辩重击",
+  "FUFU-COURT_HEAVY_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时,抽 [blue]{Cards:diff()}[/blue] 张,并获得 [blue]2[/blue] 点元素能量。" ,
+  
+  "FUFU-WATER_PIERCE.title": "水沫穿刺",
+  "FUFU-WATER_PIERCE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性且元素能量≥5时，消耗5元素能量并使目标获得 [blue]{VulnerablePower:diff()}[/blue] 点易伤。",
+
+  "FUFU-PURE_WATER_SLASH.title": "纯水斩",
+  "FUFU-PURE_WATER_SLASH.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：召唤沙龙成员，持续[blue]2[/blue] 回合。",
+
+  "FUFU-VERDICT_STRIKE.title": "裁决击",
+  "FUFU-VERDICT_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时,需元素能量≥8 + 气氛≥4:打出扣 8 元素 + 4 气氛,沙龙本回合伤害+2。",
+
+  
+  "FUFU-JOYFUL_STRIKE.title": "欢腾击",
+  "FUFU-JOYFUL_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n芒属性时：若气氛≥5，消耗5气氛值，回复3点生命。",
+
+  "FUFU-DIVINE_POSTURE_THRUST.title": "神姿突刺",
+  "FUFU-DIVINE_POSTURE_THRUST.description": "造成[blue]{Damage}[/blue] 点伤害。气氛≥5时伤害+3,命中获得3元素能量。\n芒属性时：获得 [blue]{Block}[/blue] 格挡。",
+
+  "FUFU-WATER_SILK_SLASH.title": "水丝斩",
+  "FUFU-WATER_SILK_SLASH.description": "造成 [blue]{Damage}[/blue] 点伤害，\n芒属性时：命中获得4点气氛值。",
+
+  "FUFU-SHALLOW_STRIKE.title": "浅滩击",
+  "FUFU-SHALLOW_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n芒属性时：抽{Cards:diff()}张牌，恢复3点生命。",
+
+  "FUFU-GUARD_SACRIFICE.title": "守卫献祭",
+  "FUFU-GUARD_SACRIFICE.description": "造成 [blue]{Damage}[/blue] 点伤害，回复[blue]3[/blue]点生命。\n芒属性时：消耗所有气氛值，每点气氛值获得1点格挡。",
+
+
+  "FUFU-DIM_LIGHT_SUMMON.title": "微光召唤",
+  "FUFU-DIM_LIGHT_SUMMON.description": "召唤 [blue]2[/blue] 名基础沙龙；\n角色荒属性时额外获 [blue]1[/blue] 元素；升级 [blue]2[/blue] 元素",
+
+  "FUFU-WATER_ELEMENT_CONVERGE.title": "水元素转化",
+  "FUFU-WATER_ELEMENT_CONVERGE.description": "获得 [blue]3[/blue] 点元素能量。\n角色荒属性时沙龙水伤 + 1（1 回合）；升级5元素能量",
+
+  "FUFU-WATER_FOAM_SCATTER.title": "水沫散射",
+  "FUFU-WATER_FOAM_SCATTER.description": "需气氛≥5，打出扣 [blue]5[/blue] 点气氛，敌人获得 [blue]{VulnerablePower:diff()}[/blue] 层易伤。",
+
+  "FUFU-SALON_BOOST.title": "沙龙助威",
+  "FUFU-SALON_BOOST.description": "每有[blue]1[/blue]名沙龙，获得 [blue]{Block}[/blue] 点格挡.",
+
+  "FUFU-ATMOSPHERE_CALL_ENERGY.title": "气氛唤能",
+  "FUFU-ATMOSPHERE_CALL_ENERGY.description": "获得 [blue]4[/blue] 点气氛值；角色荒属性时额外获得 [blue]1[/blue] 点气氛值.",
+
+
+  "FUFU-SINGER_SINGING.title": "歌者轻唱",
+  "FUFU-SINGER_SINGING.description": "召唤1名基础歌者。\n芒属性时：若元素能量≥2，消耗2点元素能量，歌者治疗+1。",
+
+  "FUFU-SOFT_HEALING_CHANT.title": "轻吟治愈",  
+  "FUFU-SOFT_HEALING_CHANT.description" : "恢复[blue]4[/blue]点生命。\n芒属性时治疗+[blue]2[/blue]。\n获得[blue]2[/blue]点气氛值，抽{Cards:diff()}张牌。",
+
+  "FUFU-FOAM_DEFENSE.title": "泡沫防御",
+  "FUFU-FOAM_DEFENSE.description": "获得 [blue]{Block}[/blue] 点格挡。\n芒属性时：每有[blue]1[/blue]点元素能量，格挡+1。",
+
+  "FUFU-MANA_NOURISH.title": "芒性滋养",  
+  "FUFU-MANA_NOURISH.description": "召唤歌者（2回合）。\n芒属性时：获得[blue]2[/blue]点元素能量、[blue]1[/blue]点气氛值，抽[blue]{Cards:diff()}[/blue]张牌。",
+
+  "FUFU-ATMOSPHERE_BUILD.title": "气氛营造",
+  "FUFU-ATMOSPHERE_BUILD.description": "获得 5 点气氛值。\n芒属性时额外获得2元素能量。资源互转：1元素→2气氛值。\n升级：额外获得+2气氛值。",
+ 
+  "FUFU-SINGER_RESONANCE.title": "歌者共鸣",
+  "FUFU-SINGER_RESONANCE.description": "歌者治疗+2（2回合）。\n芒属性时：治疗+1（2回合）。\n无歌者时，召唤基础歌者2回合。",
+
+  "FUFU-MANG_LIGHT_HEAL.title": "芒光治愈",
+  "FUFU-MANG_LIGHT_HEAL.description": "恢复 [blue]{Heal}[/blue] 点生命。\n芒属性时：若气氛≥5，恢复额外+3。\n资源互转：4元素→[blue]{Energy:energyIcons()}[/blue]能量。",
+
+  "FUFU-WATER_TWINE.title": "水之缠绕",
+  "FUFU-WATER_TWINE.description": "对敌人施加[blue]{VulnerablePower}[/blue]层易伤。\n芒属性时：易伤层数+1.获得1点元素能量。",
+
+  "FUFU-ENERGY_CONVERT.title": "能量转换",
+  "FUFU-ENERGY_CONVERT.description": "使你的元素能量翻倍。",
+
+  "FUFU-GUARD_BARRIER.title": "守护屏障",
+  "FUFU-GUARD_BARRIER.description": "获得[blue]{Block}[/blue]点格挡，恢复[blue]{Heal}[/blue]点生命。\n芒属性时：格挡+2,需气氛≥6，打出时消耗6气氛，获得[blue]{Energy:energyIcons()}[/blue]点能量。",
+
+
+  "FUFU-WATER_TIDE_BASH.title": "水潮重击",
+  "FUFU-WATER_TIDE_BASH.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：消耗5元素能量,抽[blue]{Cards:diff()}[/blue]张牌。",
+
+  "FUFU-DESOLATE_JUDGMENT.title": "荒性裁决",
+  "FUFU-DESOLATE_JUDGMENT.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：若元素≥6、气氛≥3，消耗6元素+3气氛。\n有失去1点生命，此牌伤害+4。",
+
+  "FUFU-SALON_SYNERGY_STRIKE.title": "沙龙协同击",
+  "FUFU-SALON_SYNERGY_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：每有1名沙龙，伤害+2。",
+
+  "FUFU-SACRIFICE_STRIKE.title": "献祭击",
+  "FUFU-SACRIFICE_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：消耗所有气氛值，每点气氛值使伤害+1。",
+
+  "FUFU-SURGE_ARMOR_BREAK.title": "浪涌破甲",
+  "FUFU-SURGE_ARMOR_BREAK.description": "造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：沙龙本次伤害 +2（1回合）。",
+
+  "FUFU-HUANG_FLAME_SACRIFICE.title": "荒焰献祭",
+  "FUFU-HUANG_FLAME_SACRIFICE.description": "对敌人造成 [blue]{Damage}[/blue] 点伤害，\n荒属性时：获得 [blue]4[/blue] 点元素能量。",
+
+
+  "FUFU-MANG_BLESSING_STRIKE.title": "芒祝福击",
+  "FUFU-MANG_BLESSING_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n角色芒属性时歌者治疗 + 3",
+
+  "FUFU-OPERA_CRAZY_DANCE.title": "歌剧狂舞",
+  "FUFU-OPERA_CRAZY_DANCE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n角色芒属性时需气氛≥5，打出扣5 气氛，抽[blue]{Cards:diff()}[/blue]张牌",
+
+  "FUFU-ALL_WATER_STRIKE.title": "众水齐击",
+  "FUFU-ALL_WATER_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n芒属性时：每有1名歌者，伤害+1。",
+
+  "FUFU-MANG_LIGHT_SACRIFICE.title": "芒光献祭",
+  "FUFU-MANG_LIGHT_SACRIFICE.description": "造 [blue]{Damage}[/blue] 普通伤害；角色芒属性时，需要[blue]10[/blue]元素能量，打出扣10元素能量，每有1歌者，回[blue]2[/blue]点生命。",
+
+  "FUFU-GUARD_HEAVY_STRIKE.title": "守卫重击",
+  "FUFU-GUARD_HEAVY_STRIKE.description": "造成 [blue]{Damage}[/blue] 点伤害，芒属性时获得 [blue]{Block}[/blue] 点格挡",
+
+  
+  "FUFU-HUANG_ORIGIN_POWER.title": "荒能本源",
+  "FUFU-HUANG_ORIGIN_POWER.description": "有失去1血则 + [blue]1[/blue] 元素；荒属性时+[blue]5[/blue]气氛值",
+
+  "FUFU-HUANG_OUTBREAK.title": "荒性爆发",
+  "FUFU-HUANG_OUTBREAK.description": "沙龙伤害 + [blue]3[/blue]（1 回合），角色荒属性时每有[blue]10[/blue]元素能量，召唤[blue]1[/blue]名沙龙；打出扣对应的元素能量。",
+
+  "FUFU-SALON_FEAST.title": "沙龙盛宴",
+  "FUFU-SALON_FEAST.description": "召唤 [blue]2[/blue] 名沙龙；角色荒属性时额外 + [blue]1[/blue] 名；升级召唤 [blue]3[/blue] 名沙龙",
+
+  "FUFU-SALON_BOOST_UP.title": "沙龙增幅",
+  "FUFU-SALON_BOOST_UP.description": "沙龙伤害 + [blue]2[/blue]（1 回合），角色荒属性时 + [blue]3[/blue] 伤害，获得 [blue]2[/blue] 点气氛值。",
+
+  "FUFU-HUANG_ENERGY_CONVERT.title": "荒能转化",
+  "FUFU-HUANG_ENERGY_CONVERT.description": "获得 [blue]10[/blue] 点元素能量；角色荒属性时每有[blue]5[/blue]元素能量，可抽1张牌。",
+
+  "FUFU-WATER_ELEMENT_FRENZY.title": "水元素狂潮",
+  "FUFU-WATER_ELEMENT_FRENZY.description": "对敌人加[blue]{VulnerablePower}[/blue]层易伤 ，角色荒属性时获得[blue]5[/blue]点元素能量",
+
+  "FUFU-SALON_GUARD.title": "沙龙守护",
+  "FUFU-SALON_GUARD.description": "每有[blue]1[/blue]名沙龙，获得[blue]{Block}[/blue]点格挡；\n荒属性时：消耗8点气氛值，沙龙伤害+[blue]2[/blue]（1回合）。",
+
+  "FUFU-ATMOSPHERE_SURGE.title": "气氛激增",
+  "FUFU-ATMOSPHERE_SURGE.description": "获 [blue]10[/blue] 气氛；角色荒属性时资源互转：[blue]5[/blue]气氛→[blue]1[/blue]卡牌能量（扣对应气氛）",
+
+
+  "FUFU-MANG_GUARD.title": "芒性守护",
+  "FUFU-MANG_GUARD.description": "获得 [blue]{Block}[/blue] 点格挡；恢复[blue]{Heal}[/blue]点生命；角色芒属性时需气氛≥7，打出扣 7气氛,歌者加成 + 2",
+
+  "FUFU-WATER_SONG.title": "众水之歌",
+  "FUFU-WATER_SONG.description": "歌者治疗 + [blue]2[/blue]（1回合）；角色芒属性时自身回合获 [blue]{Block}[/blue] 点格挡；需元素能量≥5，打出扣 5 元素能量，获 [blue]3[/blue] 气氛值，抽 [blue]{Cards:diff()}[/blue] 张牌。",
+
+  "FUFU-MANG_ENERGY_CONVERT.title": "芒能转化",
+  "FUFU-MANG_ENERGY_CONVERT.description": "获得 [blue]4[/blue] 点元素能量；角色芒属性时每有[blue]5[/blue]气氛值，可抽1张牌。升级+3元素能量",
+
+  "FUFU-SINGER_BLESSING.title": "歌者赐福",
+  "FUFU-SINGER_BLESSING.description": "歌者治疗 + 3（1 回合）；角色芒属性时恢复 [blue]{Heal}[/blue] 点生命；需元素≥5，打出扣 5 元素，抽 [blue]{Cards:diff()}[/blue] 张牌。",
+
+  "FUFU-MANG_HEAL.title": "芒性治疗",
+  "FUFU-MANG_HEAL.description": "恢复 [blue]{Heal}[/blue] 点生命；角色芒属性时气氛≥10 则恢复 + 4，召唤歌者+ 2。",
+
+  "FUFU-PROTECT_ORIGIN.title": "守护本源",
+  "FUFU-PROTECT_ORIGIN.description": "获得 [blue]{Block}[/blue] 点格挡（芒属性+3），恢复 [blue]{Heal}[/blue] 点生命；需气氛≥8 + 元素≥15，打出扣 8 气氛 + 15 元素，获得 [blue]{Energy:energyIcons()}[/blue] 点能量",
+
+
+  "FUFU-ELEMENT_MASTERY.title": "元素掌控",
+  "FUFU-ELEMENT_MASTERY.description": "本场战斗：你的元素能量不会被消耗。",
+  
+  "FUFU-WATER_AFFINITY.title": "水之亲和",
+  "FUFU-WATER_AFFINITY.description": "本场战斗中，沙龙伤害+[blue]1[/blue]。",
+
+  "FUFU-OPERA_STANCE.title": "歌剧姿态",
+  "FUFU-OPERA_STANCE.description": "回合结束时，每拥有15点元素能量，获得[blue]{StrengthPower:diff()}[/blue]点力量。",
+
+  "FUFU-SUMMON_BASE.title": "召唤基础",
+  "FUFU-SUMMON_BASE.description": "回合结束时，每有[blue]3[/blue]名召唤物获得[blue]1[/blue]点元素能量。",
+
+  "FUFU-HYDRO_ARCHON.title": "水神之威",
+  "FUFU-HYDRO_ARCHON.description": "每回合结束时，获得[blue]1[/blue]点元素能量。",
+
+  "FUFU-SINGER_EMBLEM.title": "歌者圣徽",
+  "FUFU-SINGER_EMBLEM.description": "歌者治疗 + 2",
+
+  "FUFU-SALON_BOND.title": "沙龙羁绊",
+  "FUFU-SALON_BOND.description": "永久。每次打出召唤沙龙的牌，抽[blue]{Cards:diff()}[/blue]张牌。",
+
+  "FUFU-DUAL_STATE_MASTERY.title": "双态精通",
+  "FUFU-DUAL_STATE_MASTERY.description": "荒：回合结束+2元素能量。芒：回合结束+1气氛值。",
+
+  "FUFU-CARNIVAL_CHEER.title": "万众狂欢",
+  "FUFU-CARNIVAL_CHEER.description": "本回合扣血或回血，回合结束后都会加2气氛值，升级3气氛",
+
+  "FUFU-WORLD_WATER_GOD.title": "尘世水神",
+  "FUFU-WORLD_WATER_GOD.description": "回合结束后，每有10元素能量，给沙龙伤害+[blue]{Damage:diff()}[/blue]点伤害。",
+
+  "FUFU-SALON_APOTHEOSIS.title": "沙龙神化",
+  "FUFU-SALON_APOTHEOSIS.description": "回合结束时，每有[blue]2[/blue]个召唤物，获得[blue]1[/blue]点气氛值。升级：每有[blue]2[/blue]个召唤物，获得[blue]2[/blue]点气氛值。",
+
+  "FUFU-SINGER_APOTHEOSIS.title": "歌者神化",
+  "FUFU-SINGER_APOTHEOSIS.description": "歌者治疗 + [blue]4[/blue]。",
+
+  "FUFU-HUANG_MANG_DUAL.title": "荒芒双态",
+  "FUFU-HUANG_MANG_DUAL.description": "荒：回合结束召唤1沙龙。芒：回合结束召唤1歌者。",
+
+  "FUFU-GODLMMORTAL.title": "神明不朽",
+  "FUFU-GODLMMORTAL.description": "本回合扣血或回血，回合结束后获得[blue]{StrengthPower:diff()}[/blue]点力量。",
+
+
+  "FUFU-FURINA_ANGER.title": "芙宁娜之怒",
+  "FUFU-FURINA_ANGER.description": "造 [blue]{Damage}[/blue] 普通伤害 ，角色荒属性时伤害 + [blue]5[/blue] ，每有1召唤物伤害+[blue]1[/blue]，每有[blue]5[/blue]元素能量，伤害+[blue]1[/blue].",
+
+  "FUFU-ELITE_SALON_SACRIFICE.title": "众沙龙献祭",
+  "FUFU-ELITE_SALON_SACRIFICE.description": "造成 [blue]{Damage}[/blue] 点伤害，\n打出后失去4点气氛值，回复[blue]{Energy:energyIcons()}[/blue]点能量。\n荒属性时：召唤2名沙龙成员，沙龙伤害+2。",
+
+  "FUFU-HUANG_DESTROY_STRIKE.title": "荒性灭击",
+  "FUFU-HUANG_DESTROY_STRIKE.description": "对敌人造[blue]{Damage}[/blue]普通伤害；荒属性时，每有4气氛值伤害+1.",
+
+  "FUFU-MANG_HOLY_STRIKE.title": "芒性神圣击",
+  "FUFU-MANG_HOLY_STRIKE.description": "对敌人造[blue]{Damage}[/blue]普通伤害；恢复[blue]5[/blue]血 ；芒属性时召唤歌者 + 2，获 6 气氛；需元素能量≥[blue]10[/blue]，打出扣 10 元素能量，抽 [blue]{Cards:diff()}[/blue] 牌。",
+
+  "FUFU-SINGER_GUARD_SACRIFICE.title": "歌者守护献祭",
+  "FUFU-SINGER_GUARD_SACRIFICE.description": "对敌人造[blue]{Damage}[/blue]普通伤害；芒属性时格挡 + 8；需元素≥10 + 气氛≥4，打出扣 10 元素 + 4 气氛， 歌者治疗+2(整场战斗).",
+
+
+  "FUFU-ENERGY_RESERVE.title": "能量储备",
+  "FUFU-ENERGY_RESERVE.description": "每[blue]5[/blue]点元素能量兑换[blue]{Energy:energyIcons()}[/blue]能量。",
+
+  "FUFU-HUANG_APOTHEOSIS.title": "荒性神化",
+  "FUFU-HUANG_APOTHEOSIS.description": "沙龙水伤 +[blue]2[/blue] ，获 [blue]6[/blue] 元素；荒属性时召唤 [blue]2[/blue] 名沙龙；升级+[blue]3[/blue]元素能量",
+
+  "FUFU-SALON_GRAND_FESTIVAL.title": "沙龙盛典",
+  "FUFU-SALON_GRAND_FESTIVAL.description": "召唤 [blue]2[/blue] 名沙龙；荒属性时每有 [blue]1[/blue] 名沙龙获 [blue]3[/blue] 元素.",
+
+  "FUFU-WATER_TSUNAMI.title": "水之海啸",
+  "FUFU-WATER_TSUNAMI.description": "有失去[blue]5[/blue]血则，对敌人获 [blue]{VulnerablePower}[/blue] 点易伤。",
+
+  "FUFU-HUANG_FLAME_FINALE.title": "荒焰终章",
+  "FUFU-HUANG_FLAME_FINALE.description": "每[blue]1[/blue]沙龙→[blue]{Energy:energyIcons()}[/blue]能量",
+
+
+  "FUFU-WATER_CHANT.title": "众水之颂",
+  "FUFU-WATER_CHANT.description": "有失去[blue]2[/blue]血则 +[blue]1[/blue]气氛值。",
+
+  "FUFU-MANG_ENERGY_ORIGIN.title": "芒能本源",
+  "FUFU-MANG_ENERGY_ORIGIN.description": "获[blue]8[/blue]元素；芒属性时歌者治疗+[blue]2[/blue]；解锁[blue]4[/blue]气氛↔回[blue]1[/blue]血",
+
+  "FUFU-MANG_SAINT_APOTHEOSIS.title": "芒性圣化",
+  "FUFU-MANG_SAINT_APOTHEOSIS.description": "获[blue]{Block}[/blue]格挡，恢复[blue]{Heal}[/blue]血，气氛+[blue]10[/blue]；芒属性时召唤1名歌者；需元素≥6，打出扣6元素，抽[blue]2[/blue]牌",
+
+  "FUFU-GUARD_FINALE.title": "守护终章",
+  "FUFU-GUARD_FINALE.description": "获[blue]{Block}[/blue]格挡，恢复[blue]{Heal}[/blue]血；芒属性时需元素≥7+气氛≥2，打出扣7元素+2气氛，抽[blue]2[/blue]牌。",
+
+  "FUFU-HUANG_MANG_FEAST.title": "荒芒盛宴",
+  "FUFU-HUANG_MANG_FEAST.description":"芒属性获得 [blue]{Energy:energyIcons()}[/blue] 点能量，荒属性抽 [blue]{Cards:diff()}[/blue] 张牌。"
+}

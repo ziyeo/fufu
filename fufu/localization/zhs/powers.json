@@ -1,0 +1,62 @@
+{
+  "FUFU-ATMOSPHERE_POWER.title": "气氛值",
+  "FUFU-ATMOSPHERE_POWER.description": "角色的专属能量资源。",
+
+  "FUFU-ELEMENT_ENERGY_POWER.title": "元素能量",
+  "FUFU-ELEMENT_ENERGY_POWER.description": "角色的专属能量资源。",
+
+  "FUFU-HUANG_MANG_STATE_POWER.title": "荒/芒状态",
+  "FUFU-HUANG_MANG_STATE_POWER.description": "当前处于特殊形态，查看血条下的图标确认是荒还是芒。",
+
+  "FUFU-SHADOW_SALON_POWER.title": "沙龙成员",
+  "FUFU-SHADOW_SALON_POWER.description": "每回合主动造成无视格挡的水元素伤害，每回合结束按数量扣角色血（1 名 = 1 血，叠加计算）",
+
+  "FUFU-BASIC_SINGER_POWER.title": "众水的歌者",
+  "FUFU-BASIC_SINGER_POWER.description": "每回合结束为角色恢复[blue]2[/blue]点生命值。",
+
+  "FUFU-SALON_DAMAGE_BUFF_POWER.title": "沙龙伤害增益",
+  "FUFU-SALON_DAMAGE_BUFF_POWER.description": "每回合结束时，若角色拥有沙龙成员效果，则获得[blue]1[/blue]点伤害加成。",
+
+  "FUFU-SALON_TEMP_DAMAGE_BUFF_POWER.title": "沙龙临时伤害增益",
+  "FUFU-SALON_TEMP_DAMAGE_BUFF_POWER.description": "本回合内，沙龙伤害增加。回合结束后移除。",
+
+  "FUFU-SINGER_HEAL_BUFF_POWER.title": "歌者治疗增益",
+  "FUFU-SINGER_HEAL_BUFF_POWER.description": "每回合结束时，若角色拥有歌者成员效果，则获得[blue]1[/blue]点治疗加成。",
+
+  "FUFU-SINGER_TEMP_HEAL_BUFF_POWER.title": "歌者临时治疗增益",
+  "FUFU-SINGER_TEMP_HEAL_BUFF_POWER.description": "本回合内，歌者治疗增加。回合结束后移除。",
+
+  "FUFU-ELEMENT_MASTERY_POWER.title": "元素精熟",
+  "FUFU-ELEMENT_MASTERY_POWER.description": "元素能量不会损耗。\n消耗元素时，不会消耗元素能量。",
+
+  "FUFU-OPERA_STANCE_POWER.title": "歌剧姿态",
+  "FUFU-OPERA_STANCE_POWER.description": "回合结束时，每拥有15点元素能量，获得[blue]1[/blue]点力量。升级获得[blue]2[/blue]点力量。",
+
+  "FUFU-SUMMON_BASE_POWER.title": "召唤基座",
+  "FUFU-SUMMON_BASE_POWER.description": "回合结束时，每有[blue]3[/blue]名召唤物获得[blue]1[/blue]点元素能量。",
+
+  "FUFU-HYDRO_ARCHON_POWER.title": "水神之威",
+  "FUFU-HYDRO_ARCHON_POWER.description": "每回合结束时，获得[blue]1[/blue]点元素能量。",
+
+  "FUFU-SALON_BOND_POWER.title": "沙龙羁绊",
+  "FUFU-SALON_BOND_POWER.description": "永久。每次召唤名沙龙，抽1张牌，升级：每次召唤名沙龙，抽2张牌。",
+
+  "FUFU-DUAL_STATE_MASTERY_POWER.title": "双态精通",
+  "FUFU-DUAL_STATE_MASTERY_POWER.description": "永久。荒：回合结束+2元素能量。芒：回合结束+1气氛值。",
+
+  "FUFU-CARNIVAL_CHEER_POWER.title": "万众狂欢",
+  "FUFU-CARNIVAL_CHEER_POWER.description": "本回合扣血或回血，回合结束后都会加气氛值",
+
+  "FUFU-WORLD_WATER_GOD_POWER.title": "尘世水神",
+  "FUFU-WORLD_WATER_GOD_POWER.description": "回合结束后，每有10元素能量，给沙龙加伤害。",
+
+  "FUFU-SALON_APOTHEOSIS_POWER.title": "沙龙神化",
+  "FUFU-SALON_APOTHEOSIS_POWER.description": "回合结束时，每有[blue]2[/blue]个召唤物，获得[blue]1[/blue]点气氛值。升级：每有[blue]2[/blue]个召唤物，获得[blue]2[/blue]点气氛值。",
+
+  "FUFU-HUANG_MANG_DUAL_POWER.title": "荒芒双态",
+  "FUFU-HUANG_MANG_DUAL_POWER.description": "荒：回合结束召唤1沙龙。芒：回合结束召唤1歌者。",
+
+  "FUFU-GODLMMORTAL_POWER.title": "神明不朽",
+  "FUFU-GODLMMORTAL_POWER.description": "本回合扣血或回血，回合结束后获得力量。"
+
+}
