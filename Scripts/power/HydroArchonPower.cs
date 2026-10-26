@@ -20,9 +20,9 @@ public class HydroArchonPower : CustomPowerModel
     /// 回合结束获得1点元素能量。
     /// </summary>
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
 
         // 只在自己回合结束触发
         if (side != Owner.Side)

@@ -65,7 +65,7 @@ public class SacrificeStrike : CustomCardModel
 
         // 造成最终伤害
         await DamageCmd.Attack(finalDamage)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(target)
             .Execute(choiceContext);
     }

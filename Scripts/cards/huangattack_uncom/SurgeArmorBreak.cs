@@ -42,7 +42,7 @@ public class SurgeArmorBreak : CustomCardModel
 
         // 造成 9 点普通伤害
         await DamageCmd.Attack(DynamicVars.Damage.IntValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

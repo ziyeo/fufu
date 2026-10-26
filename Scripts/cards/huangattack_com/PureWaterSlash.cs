@@ -41,7 +41,7 @@ public class PureWaterSlash : CustomCardModel
 
         // 造成 6 点伤害
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

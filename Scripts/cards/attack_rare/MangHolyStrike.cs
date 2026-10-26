@@ -47,7 +47,7 @@ public class MangHolyStrike : CustomCardModel
 
         // 造成12点基础伤害
         await DamageCmd.Attack(DynamicVars.Damage.IntValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

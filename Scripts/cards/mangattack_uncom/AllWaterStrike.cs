@@ -51,7 +51,7 @@ public class AllWaterStrike : CustomCardModel
 
         // 造成最终伤害
         await DamageCmd.Attack(damage)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
     }

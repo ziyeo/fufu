@@ -37,7 +37,7 @@ public class WaterSilkSlash : CustomCardModel
 
         // 造成基础伤害
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

@@ -53,7 +53,7 @@ public class SalonSynergyStrike : CustomCardModel
 
         // 造成伤害
         await DamageCmd.Attack(damage)
-                .FromCard(this)
+                .FromCard(this, cardPlay)
                 .Targeting(cardPlay.Target)
                 .Execute(choiceContext);
     }

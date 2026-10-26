@@ -3,6 +3,7 @@ using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Entities.Powers;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 
 namespace Fufu.Scripts.Power;
 
@@ -18,9 +19,9 @@ public sealed class CarnivalCheerPower : CustomPowerModel
 
     private int _lastHealth;
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+   public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
         if (side != Owner.Side) return;
 
         if (Owner.CurrentHp != _lastHealth)

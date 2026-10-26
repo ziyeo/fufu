@@ -43,7 +43,7 @@ public class HuangFlameSacrifice : CustomCardModel
 
         // 对敌人造成18点普通伤害
         await DamageCmd.Attack(DynamicVars.Damage.IntValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

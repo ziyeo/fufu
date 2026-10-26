@@ -19,9 +19,9 @@ public class OperaStancePower : CustomPowerModel
     public override string CustomPackedIconPath => "res://fufu/images/powers/opera_stance.png";
     public override string CustomBigIconPath => "res://fufu/images/powers/big/opera_stance.png";
     // 完全参照你的 ShadowSalonPower 写法！
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
 
         // 只在自己回合触发
         if (side != Owner.Side)

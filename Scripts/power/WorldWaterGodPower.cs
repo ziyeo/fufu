@@ -20,9 +20,9 @@ public class WorldWaterGodPower : CustomPowerModel
     /// 回合结束后，每有10元素能量，给【沙龙伤害Buff】+1。
     /// </summary>
     // 回合结束：给沙龙加伤害
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
         if (side != Owner.Side) return;
         Creature player = base.Owner;
         if (player.CombatState == null)

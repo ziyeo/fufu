@@ -46,7 +46,7 @@ public class WaterTideBash : CustomCardModel
 
         // 1. 基础伤害 12 点
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-                .FromCard(this)
+                .FromCard(this, cardPlay)
                 .Targeting(cardPlay.Target)
                 .Execute(choiceContext);
 

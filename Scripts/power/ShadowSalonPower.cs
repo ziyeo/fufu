@@ -17,9 +17,9 @@ public class ShadowSalonPower : CustomPowerModel
     public override string CustomPackedIconPath => "res://fufu/images/powers/shadow_salon.png";
     public override string CustomBigIconPath => "res://fufu/images/powers/big/shadow_salon.png";
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
 
         // 只在自己的回合结束触发
         if (side != Owner.Side)

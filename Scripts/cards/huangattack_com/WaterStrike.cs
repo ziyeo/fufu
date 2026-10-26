@@ -39,7 +39,7 @@ public class WaterStrike : CustomCardModel
 
         // 造成水属性伤害
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

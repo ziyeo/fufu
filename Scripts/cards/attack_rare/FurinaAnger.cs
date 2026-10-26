@@ -62,7 +62,7 @@ public class FurinaAnger : CustomCardModel
 
         // 造成最终伤害
         await DamageCmd.Attack(finalDamage)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
     }

@@ -20,9 +20,9 @@ public sealed class DualStateMasteryPower : CustomPowerModel
     /// 荒+2元素能量，芒+1气氛值。
     /// </summary>
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
 
         if (side != Owner.Side)
             return;

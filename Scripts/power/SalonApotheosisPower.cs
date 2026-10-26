@@ -18,9 +18,9 @@ public class SalonApotheosisPower : CustomPowerModel
     public override string CustomBigIconPath => "res://fufu/images/powers/big/salon_apotheosis.png";
     // "回合结束时，每有2个召唤物，获得1点气氛值。";
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
         if (side != Owner.Side) 
             return;
 

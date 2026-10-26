@@ -52,7 +52,7 @@ public class OperaStab : CustomCardModel
 
         // 造成伤害
         await DamageCmd.Attack(damage)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(target)
             .Execute(choiceContext);
     }

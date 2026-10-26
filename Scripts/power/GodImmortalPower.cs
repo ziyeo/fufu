@@ -21,9 +21,9 @@ public class GodlmmortalPower : CustomPowerModel
     // 受到伤害时
     private int _lastHealth;
 
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
         if (side != Owner.Side) return;
 
         if (Owner.CurrentHp != _lastHealth)

@@ -39,14 +39,19 @@ public class VerdictStrike : CustomCardModel
 
         // 造成伤害
         await DamageCmd.Attack(DynamicVars.Damage.BaseValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
         
         // 获取当前资源
         int elemental = player.GetPowerAmount<ElementEnergyPower>();
         int atmosphere = player.GetPowerAmount<AtmospherePower>();
-        // 荒属性：沙龙本回合伤害 +2
+       
+        // 资源不足，无法打出
+        if (elemental < 8 || atmosphere < 4)
+            return;
+
+         // 荒属性：沙龙本回合伤害 +2
         if (FufuModCode.Character.FufuMod.CurrentAttr == FufuAttr.Huang)
         {
             var buff = await PowerCmd.Apply<SalonTempDamageBuffPower>(choiceContext,player, 2, player, this);
@@ -55,10 +60,7 @@ public class VerdictStrike : CustomCardModel
                 buff.Duration = 1; // 只持续当前回合！
             }
         }
-        // 资源不足，无法打出
-        if (elemental < 8 || atmosphere < 4)
-            return;
-
+        
         bool hasElementMastery = player.HasPower<ElementMasteryPower>();
     
         // 没有掌控 → 正常扣费

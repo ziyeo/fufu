@@ -43,7 +43,7 @@ public sealed class WaterPierce : CustomCardModel
 
         // 1. 造成基础伤害
         await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
 

@@ -53,7 +53,7 @@ public class DivinePostureThrust : CustomCardModel
 
         // 造成伤害
         await DamageCmd.Attack(finalDamage)
-            .FromCard(this)
+            .FromCard(this, cardPlay)
             .Targeting(cardPlay.Target)
             .Execute(choiceContext);
         

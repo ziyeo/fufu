@@ -19,9 +19,9 @@ public class SingerTempHealBuffPower : CustomPowerModel
     public override string CustomBigIconPath => "res://fufu/images/powers/big/singer_temp_heal_buff.png";
 
     // 回合结束自动移除（只持续1回合）
-    public override async Task AfterTurnEnd(PlayerChoiceContext choiceContext, CombatSide side)
+    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
-        await base.AfterTurnEnd(choiceContext, side);
+        await base.AfterSideTurnEnd(choiceContext, side, participants);
         if (side == Owner.Side)
              Duration--;
 
